@@ -1,6 +1,6 @@
 /*
  * we keep an array no[i][j] the number of times we have said no between pair i,j before 
- * as long as no[i][j] < sz[i]*sz[j]-1 ( notice if we say no now then it would be impossible to reach from i to j ) , so we say yes
+ * as long as no[i][j] < sz[i]*sz[j]-1 we say no ( notice if we say no now then it would be impossible to reach from i to j ) , so we say yes
 */
 #define fast ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0)
 #include <bits/stdc++.h>
